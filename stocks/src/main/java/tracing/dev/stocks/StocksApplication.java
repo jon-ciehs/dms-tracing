@@ -1,4 +1,4 @@
-package tracing.dev.jobs;
+package tracing.dev.stocks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +11,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @RefreshScope
 @EnableDiscoveryClient
 @EnableFeignClients
-public class JobsApplication {
+public class StocksApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JobsApplication.class, args);
+		SpringApplication.run(StocksApplication.class, args);
 	}
 
 }
